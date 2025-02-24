@@ -1,0 +1,51 @@
+TransactionID,Timestamp,Amount,Location,Merchant,CardType,IsFraud
+fcade95f-f980-405a-8e49-0b5b05d5b031,2025-02-06 14:11:03,3433.4,Seattle,Gucci,Discover,0
+b2c54da8-8fc0-4791-bcb9-0e3eb8c00d60,2025-01-21 14:20:14,4515.33,Los Angeles,Nike,Visa,1
+6a7c5706-4b8d-4c45-b502-909f05e34bbb,2025-02-10 07:44:15,3005.78,Las Vegas,Amazon,Discover,0
+af69ed12-d59e-4637-b812-dbcf02f619de,2025-01-07 04:57:57,3152.05,New York,Apple,Amex,0
+e8c9e84d-10cf-4b0a-b49f-8a54cf413e21,2025-02-06 10:15:26,755.62,Chicago,Target,Amex,1
+65c26d7b-222c-43c5-8406-9141894186c6,2025-01-22 01:03:14,3246.22,San Francisco,Starbucks,Discover,0
+149bab9d-893c-4521-babd-efc7f1eeb9d9,2025-01-04 16:17:48,4805.37,Dallas,Starbucks,Discover,0
+9d276873-e8de-4d13-9db2-2c272d828eed,2025-01-31 15:16:19,24.35,Seattle,Uber,Amex,0
+d797bdf0-e0ff-4992-b2c4-d9ce1ac51c90,2025-01-07 19:59:29,484.89,Los Angeles,Nike,MasterCard,0
+e42d22a0-3f8e-43b5-b5eb-4e453f55d8a3,2025-01-11 13:10:58,822.5,Dallas,Gucci,Amex,0
+f2f79eb3-c58b-41f3-935a-0ae90fac24a9,2025-01-04 09:08:56,1045.6,Las Vegas,Netflix,Discover,0
+2e329b82-d54c-4df9-9135-5acaef9376f0,2025-02-20 10:45:51,218.29,Los Angeles,Apple,Visa,1
+e887c6e8-20f9-40a4-affc-db8680ca9ee1,2025-02-16 07:11:36,822.03,Chicago,Netflix,Discover,0
+65120086-56a0-4531-a8cd-bf2494f14916,2025-02-23 15:24:34,4814.05,San Francisco,Netflix,Amex,0
+6908b639-f4ab-4e90-ae66-aa9b07940aa2,2025-01-31 17:27:17,1816.81,Las Vegas,Gucci,Discover,1
+04b14253-aaf5-45fe-9f63-c828ee1a097c,2025-01-16 06:29:49,3535.0,Los Angeles,Gucci,Amex,0
+9ef636f8-f1fd-4000-81a2-284db442f581,2025-01-30 08:20:19,1804.98,Dallas,Netflix,Amex,0
+7dac53e0-65d6-4360-8e46-4735e3f77a63,2025-02-12 20:36:04,4014.56,San Francisco,Nike,MasterCard,0
+97fac8be-9878-4b46-ab29-d205d2f27f98,2025-01-19 05:02:28,3837.67,Miami,Walmart,MasterCard,0
+ed140fed-8b25-4b76-aaf6-1c8768690cb0,2025-01-24 15:27:18,4638.9,Dallas,Netflix,Amex,1
+67792c70-043d-4765-b291-a5e17a97a133,2025-01-28 07:57:58,2079.63,Dallas,Apple,Discover,0
+84433297-5de8-4f59-b5ce-7cc6390cfb49,2025-01-25 07:08:16,3564.77,Los Angeles,Nike,MasterCard,0
+0d85ec64-c7f1-43af-951f-123b5267b122,2025-01-31 21:16:36,3601.18,Seattle,Starbucks,MasterCard,0
+e592ca41-640b-4c54-a515-9320874e2669,2025-01-22 17:18:43,1698.52,Chicago,Walmart,Visa,0
+36bd8095-4fb2-4c1d-b51a-76441eb62e3e,2025-02-08 08:31:55,2782.4,Las Vegas,Uber,Visa,0
+8933bbc1-ab87-42ab-a837-cbb0d00ff1aa,2025-02-08 01:47:37,1340.69,Chicago,Apple,MasterCard,0
+d13544f4-cfae-4874-81ba-8c6d906a6e8b,2025-02-17 05:29:02,4870.21,Las Vegas,Netflix,MasterCard,0
+777fd921-d594-4956-8256-2d72b184db11,2025-02-14 10:51:09,2863.22,Los Angeles,Target,Discover,1
+12025968-abd9-434f-b7e3-c6253edb0ebe,2025-02-10 23:17:26,4513.15,Chicago,Target,Visa,1
+d84bc0d6-8707-4329-aeb2-01d77fa38223,2025-01-27 05:47:59,2108.09,Miami,Nike,Discover,1
+371743a8-763d-4645-ab7b-e2504e52c8af,2025-02-20 11:51:58,957.35,Seattle,Target,Visa,0
+ede6afdb-6196-4712-be93-c537df663015,2025-01-15 02:20:26,2949.11,New York,Target,Amex,0
+83eaf305-9dfc-4f8b-9b50-7c1662d6675a,2025-01-21 21:59:07,1643.97,Las Vegas,Netflix,Discover,0
+dc904722-1099-4810-b35e-45c7eb085bb9,2025-01-01 16:59:49,713.96,Las Vegas,Gucci,Visa,0
+ef72a901-ca69-4283-8f8a-8caa5703a082,2025-02-23 10:58:33,3117.64,Chicago,Uber,Amex,0
+f7276d84-8065-4224-b2a1-c0d997a0c55d,2025-02-05 08:21:26,702.58,Chicago,Nike,Discover,0
+c238e68c-ab16-4cf3-9df2-62ac19620359,2025-01-05 04:01:05,1796.85,Seattle,Tesla,Amex,0
+ba45c9f9-cd28-4d42-b525-8867a50f1562,2025-02-09 13:26:20,2058.82,Seattle,Target,Amex,0
+d7bfd2d5-7c5d-44ce-ace9-baf015baa778,2025-01-03 07:21:51,2938.5,Chicago,Tesla,MasterCard,0
+32112096-c108-4c64-b869-65db7277438b,2025-01-01 02:43:22,61.48,Dallas,Apple,Discover,0
+edcad3fe-5f62-4456-8042-a4ce56fad11c,2025-01-15 13:19:03,3871.91,New York,Uber,Discover,0
+99119181-f8a6-4a59-8f0d-e0bc87eac272,2025-02-15 08:24:43,4222.65,Seattle,Apple,Amex,0
+76326acb-7818-4e48-ad19-0a5c31354f05,2025-01-02 04:38:33,201.87,Seattle,Starbucks,Discover,0
+53421acc-aeb6-4217-84ec-4a5599129d07,2025-02-08 22:33:04,2759.79,Seattle,Starbucks,MasterCard,0
+8244b868-1be4-4cb9-b9a8-dad74ebc50a3,2025-02-10 01:34:27,3943.67,New York,Gucci,Amex,0
+03a66ce7-5515-446b-a87f-6a3effbc78b7,2025-01-04 23:13:02,3864.79,Las Vegas,Uber,Discover,0
+43186421-5ff1-4ddd-ae4e-f40fe41c44b0,2025-01-27 08:16:18,3505.34,Miami,Starbucks,MasterCard,0
+9fec801f-49f8-4951-927f-b0c74eacef40,2025-02-13 23:44:44,3717.86,Las Vegas,Netflix,Amex,0
+b65c4348-a731-4541-9a1e-e8b322c9b59e,2025-01-14 02:04:49,1484.23,Los Angeles,Apple,Amex,0
+233d257a-13ea-4571-a99e-4796eef9cfc1,2025-01-18 07:13:03,3467.51,Chicago,Amazon,Discover,0
