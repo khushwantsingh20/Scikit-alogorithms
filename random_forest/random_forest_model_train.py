@@ -19,6 +19,7 @@ for col in categorical_cols:
     le = LabelEncoder()
     df[col] = le.fit_transform(df[col])
     label_encoders[col] = le  # Store for later use
+    print(label_encoders,"label_encoders")
 
 # Separate features and target
 X = df.drop(columns=["IsFraud"])
@@ -41,6 +42,7 @@ param_grid = {
 
 rf_model = RandomForestClassifier(random_state=42)
 grid_search = GridSearchCV(rf_model, param_grid, cv=5, n_jobs=-1, verbose=2)
+print(grid_search,"grid_search")
 grid_search.fit(X_train, y_train)
 
 # Best model

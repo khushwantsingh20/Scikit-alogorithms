@@ -1,0 +1,51 @@
+text,sentiment
+"I love this product, it's amazing!",1
+"The movie was absolutely fantastic.",1
+"This place is wonderful, I enjoy it.",1
+"I had a great time at the park.",1
+"The food was terrible, I hated it.",0
+"This is the worst service ever.",0
+"I am very disappointed with this app.",0
+"The quality is really bad.",0
+"The customer support was very helpful.",1
+"I had an excellent experience with this company.",1
+"The phone battery lasts a long time.",1
+"The staff was super friendly and kind.",1
+"The delivery was quick and efficient.",1
+"This product exceeded my expectations.",1
+"I highly recommend this brand!",1
+"The concert was so much fun!",1
+"The book was very engaging and well-written.",1
+"I had an amazing vacation at this resort.",1
+"This laptop works like a charm!",1
+"The coffee tastes incredible.",1
+"This hotel has the worst service ever.",0
+"I regret purchasing this item.",0
+"The package arrived damaged.",0
+"The software keeps crashing.",0
+"The waiting time was way too long.",0
+"This movie was a complete waste of time.",0
+"The customer service was extremely rude.",0
+"My order was missing several items.",0
+"The internet connection is very slow.",0
+"The shoes fell apart within a week.",0
+"I absolutely love this new phone!",1
+"This is the best pizza I have ever had!",1
+"My experience at the spa was very relaxing.",1
+"The user interface is very intuitive and easy to use.",1
+"I am so happy with my purchase!",1
+"The flight attendants were very polite and professional.",1
+"The new update made the app much better.",1
+"This dress fits perfectly and looks stunning!",1
+"I am very impressed with the performance of this car.",1
+"The hotel room was clean and comfortable.",1
+"This product is cheaply made and broke easily.",0
+"The customer service never responded to my emails.",0
+"The movie was boring and predictable.",0
+"The food was cold and tasteless.",0
+"I had to wait over an hour for my food.",0
+"The headphones stopped working after a week.",0
+"The seller sent me the wrong item.",0
+"This tablet is extremely slow and unresponsive.",0
+"The jacket shrank after one wash.",0
+"The worst shopping experience I've ever had.",0
