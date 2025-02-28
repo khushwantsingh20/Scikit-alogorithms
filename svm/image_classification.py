@@ -14,21 +14,24 @@ def load_images_from_folder(folder, label):
     for filename in os.listdir(folder):
         img_path = os.path.join(folder, filename)
         img = cv2.imread(img_path, cv2.IMREAD_GRAYSCALE)  # Convert to grayscale
+        
         if img is not None:
             img = cv2.resize(img, (128, 128))  # Resize to fixed size
-            features, _ = hog(img, pixels_per_cell=(8, 8), cells_per_block=(2, 2), visualize=True)
+            features = hog(img, pixels_per_cell=(8, 8), cells_per_block=(2, 2), feature_vector=True)
             images.append(features)
             labels.append(label)
-    
+        else:
+            print(f"Warning: Unable to read image {img_path}")
+
     return images, labels
 
 # Load dataset
-cat_images, cat_labels = load_images_from_folder("dataset/cat", 0)  # 0 for cat
-dog_images, dog_labels = load_images_from_folder("dataset/dog", 1)  # 1 for dog
+cat_images, cat_labels = load_images_from_folder("cats", 0)  # 0 for cat
+dog_images, dog_labels = load_images_from_folder("dogs", 1)  # 1 for dog
 
 # Combine data
-X = np.array(cat_images + dog_images)
-y = np.array(cat_labels + dog_labels)
+X = np.vstack((cat_images, dog_images))  # Use vstack for proper shape
+y = np.hstack((cat_labels, dog_labels))  # Use hstack for correct labels
 
 # Split dataset
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
@@ -59,9 +62,14 @@ print(f"Model Accuracy: {accuracy * 100:.2f}%")
 # Function to predict a new image
 def predict_image(image_path, model):
     img = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
+
+    if img is None:
+        print(f"Error: Unable to read the image at {image_path}. Check the file path.")
+        return "Unknown"
+
     img = cv2.resize(img, (128, 128))
-    features, _ = hog(img, pixels_per_cell=(8, 8), cells_per_block=(2, 2), visualize=True)
-    
+    features = hog(img, pixels_per_cell=(8, 8), cells_per_block=(2, 2), feature_vector=True)
+
     prediction = model.predict([features])
     return "Dog" if prediction[0] == 1 else "Cat"
 
